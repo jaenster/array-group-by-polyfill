@@ -7,7 +7,8 @@ Simple polyfill for [tc39/proposal-array-grouping](https://github.com/tc39/propo
 import 'array-grouping-polyfill'
 
 
-const {negative, positive, zero, nan} = [-1, 2, -4, 5, 'foo', 0, 6, 3, -3, 5].groupBy((i) => {
+const array = [-1, 2, -4, 5, 'foo', 0, 6, 3, -3, 5];
+const {negative, positive, zero, nan} = array.groupBy((i) => {
     switch(true) {
         case typeof i !== 'number':
             return 'nan';
