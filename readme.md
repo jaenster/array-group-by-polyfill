@@ -1,6 +1,6 @@
 # Polyfill for tc39/proposal-array-grouping
 
-Simple polyfill for [tc39/proposal-array-grouping](https://tc39/proposal-array-grouping), if you dont feel like including core-js
+Simple polyfill for [tc39/proposal-array-grouping](https://github.com/tc39/proposal-array-grouping), if you dont feel like including core-js
 
 # How to use
 ```typescript
@@ -31,7 +31,7 @@ console.log(nan) // foo
 
 
 ## proposal-array-grouping
-(Note this is a copy from [tc39/proposal-array-grouping](https://tc39/proposal-array-grouping))
+(Note this is a copy from [tc39/proposal-array-grouping](https://github.com/tc39/proposal-array-grouping))
 
 A proposal to make grouping of items in an array easier. 
 

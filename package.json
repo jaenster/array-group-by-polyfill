@@ -1,6 +1,6 @@
 {
   "name": "array-grouping-polyfill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "proposal-array-grouping polyfill. Polyfill for array.prototype.groupBy and array.prototype.groupByMap",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
